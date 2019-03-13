@@ -1,0 +1,31 @@
+\documentclass{book}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\graphicspath{{images/}{../images/}}
+\usepackage{subfiles}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\urlstyle{same}
+ 
+\usepackage{blindtext}
+
+\title{So you want to be a programmer}
+\author{Bogumił Wiatrowski}
+\date{ }
+
+\being{document}
+
+\maketitle
+
+\section{Introduction}
+\subfile{sections/introduction}
+
+\tableofcontents
+
+\end{document}
